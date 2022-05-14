@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+nav {
+  background-color: #1F2937;
+  color: white;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header li {
+  margin-left: 16px;
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+nav .container {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: #F9FAF8;
+}
