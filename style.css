@@ -166,3 +166,17 @@ nav .container {
   border-color: white;
 }
 
+/* FOOTER */
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 18px;
+}
+
+.footer .container {
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
