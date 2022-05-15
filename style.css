@@ -93,9 +93,11 @@ nav .container {
 }
 
 /* PICTURES */
+.pictures { 
+  padding: 64px;
+}
 
 .pictures .container {
-  margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,4 +118,27 @@ nav .container {
   width: 150px;
   height: 150px;
   border: 2px solid #3882F6;
+}
+
+/* QUOTE */
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 64px;
+}
+
+.quote figure {
+  width: 800px;
+}
+
+.quote figcaption {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+.quote blockquote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
 }
