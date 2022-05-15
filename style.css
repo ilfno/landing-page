@@ -93,7 +93,12 @@ nav .container {
   background-color: #3882F6;
   font-size: 18px;
   color:#F9FAF8;
-  padding: 6px 16px;
+  padding: 6px 26px;
+  border-radius: 10px;
+}
+
+.hero button {
+  margin-top: 12px;
 }
 
 /* PICTURES */
