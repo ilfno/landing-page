@@ -12,7 +12,14 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+}
+
+a, .secondary{
+  color: #E5E7EB;
+}
+
+.footer, .secondary, button, li {
+  font-size: 18px;
 }
 
 .container {
@@ -24,7 +31,7 @@ h1, h2 {
   margin: 0;
  }
 
- nav, .hero {
+ nav, .hero, .footer {
   background-color: #1F2937;
  }
 
@@ -45,7 +52,6 @@ h1, h2 {
 
 .header li {
   margin-left: 16px;
-  font-size: 18px;
 }
 
 nav .container {
@@ -75,11 +81,6 @@ nav .container {
   font-weight: 900; 
 }
 
-.hero .secondary {
-  font-size: 18px;
-  color: #E5E7EB;
-}
-
 .placeholder {
   background: rgb(127, 135, 143);
   height: 200px;
@@ -99,7 +100,6 @@ nav .container {
 
  button {
   background-color: #3882F6;
-  font-size: 18px;
   color:#F9FAF8;
   padding: 6px 26px;
   border-radius: 10px;
@@ -177,11 +177,6 @@ nav .container {
 }
 
 /* FOOTER */
-
-.footer {
-  background-color: #1F2937;
-  font-size: 18px;
-}
 
 .footer .container {
   height: 85px;
