@@ -51,7 +51,7 @@ nav .container {
 .header h1 {
   margin: 0;
   color: #F9FAF8;
-  font-weight: 900;
+  font-weight: x`900;
 }
 
 /* HERO SECTION */
@@ -154,6 +154,7 @@ nav .container {
   font-weight: bold;
 }
 .quote blockquote {
+  padding-left: 48px;
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
